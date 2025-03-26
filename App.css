@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+
+/* Navbar Styling */
+.custom-navbar {
+  background-color: #141414 !important;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-navbar .nav-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #e50914; /* Netflix red color */
+}
+
+.custom-navbar .form-control {
+  width: 250px;
+  border: none;
+  border-radius: 50px;
+  background-color: #333;
+  color: white;
+}
+
+.custom-navbar .form-control:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+}
+
+.search-button {
+  background-color: #e50914; /* Netflix red color */
+  border: none;
+  border-radius: 50px;
+  color: white;
+}
+
+.search-button:hover {
+  background-color: #f40612;
+  color: white;
+}
+
+/* General Body Styling */
+body {
+  background-color: #141414;
+  color: white;
+}
+
+/* Movie Grid Styling */
+.card {
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+}
+
+.card-body {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-img-top {
+  border-radius: 10px;
+}
+
+/* Movie Details Section */
+.card-button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.card-button:hover {
+  background-color: #f40612;
+}
+
+/* Footer */
+footer {
+  background-color: #141414;
+  color: white;
+  padding: 2rem 0;
+}
+
+footer h5 {
+  font-weight: bold;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #b3b3b3;
+}
+
+footer ul li a:hover {
+  color: #e50914;
+}
